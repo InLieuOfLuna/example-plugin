@@ -1,0 +1,8 @@
+name: Example Plugin
+version: '${version}'
+main: me.lunaluna.spigot.exampleplugin.ExamplePlugin
+api-version: 1.17
+prefix: EXAMPLE
+authors: [ Luna ]
+description: Example mod for experimental purposes
+website: https://www.lunaluna.me/
