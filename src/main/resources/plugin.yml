@@ -1,6 +1,6 @@
 name: Example Plugin
 version: '${version}'
-main: me.lunaluna.spigot.exampleplugin.ExamplePlugin
+main: me.lunaluna.spigot.exampleplugin.ExamplePluginKt
 api-version: 1.17
 prefix: EXAMPLE
 authors: [ Luna ]
