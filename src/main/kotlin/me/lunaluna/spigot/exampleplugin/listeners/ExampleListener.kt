@@ -11,7 +11,7 @@ class ExampleListener(plugin: JavaPlugin) : Listener {
     init { Bukkit.getPluginManager().registerEvents(this, plugin) }
 
     @EventHandler
-    fun onTick(event: PlayerBedEnterEvent) {
+    fun onSleep(event: PlayerBedEnterEvent) {
         event.player.damage(1.0)
     }
 }
